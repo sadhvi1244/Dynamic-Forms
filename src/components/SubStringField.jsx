@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import FieldRenderer from "./fieldRenderer.jsx";
+import FieldRenderer from "./FieldRenderer";
 
 const SubStringField = ({ field, value, onChange }) => {
   const items = value || [];
